@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item id="ExecutionPlan/mysql8">
+		<column name="Type" visible="true" order="0" width="128"/>
+		<column name="Name" visible="true" order="1" width="100"/>
+		<column name="Cost" visible="true" order="2" width="100"/>
+		<column name="Rows" visible="true" order="3" width="100"/>
+	</item>
+	<item id="NodeList/DBNProjectDatabases/DBNBookmarkFolder/DBNDiagramFolder/DBNResource">
+		<column name="이름" visible="true" order="0" width="100"/>
+		<column name="경로" visible="true" order="1" width="100"/>
+		<column name="최종 수정" visible="true" order="2" width="100"/>
+		<column name="크기" visible="true" order="3" width="100"/>
+	</item>
+	<item id="NodeList/DBNResource">
+		<column name="이름" visible="true" order="0" width="100"/>
+		<column name="경로" visible="true" order="1" width="131"/>
+		<column name="최종 수정" visible="true" order="2" width="164"/>
+		<column name="크기" visible="true" order="3" width="100"/>
+	</item>
+	<item id="NodeList/DataSourceDescriptor">
+		<column name="이름" visible="true" order="0" width="100"/>
+		<column name="설명" visible="true" order="1" width="100"/>
+		<column name="Origin" visible="true" order="2" width="100"/>
+		<column name="드라이버 유형" visible="true" order="3" width="100"/>
+	</item>
+	<item id="NodeList/MySQLCatalog">
+		<column name="Schema Name" visible="true" order="0" width="100"/>
+		<column name="Default Charset" visible="true" order="1" width="100"/>
+		<column name="Default Collation" visible="true" order="2" width="100"/>
+		<column name="SQL Path" visible="true" order="3" width="100"/>
+		<column name="Database size" visible="true" order="4" width="100"/>
+	</item>
+	<item id="NodeList/MySQLTable">
+		<column name="테이블명" visible="true" order="0" width="100"/>
+		<column name="Engine" visible="true" order="1" width="100"/>
+		<column name="Auto Increment" visible="true" order="2" width="100"/>
+		<column name="Data Length" visible="true" order="3" width="100"/>
+		<column name="Description" visible="true" order="4" width="100"/>
+	</item>
+	<item id="NodeList/MySQLTableColumn">
+		<column name="컬럼명" visible="true" order="0" width="139"/>
+		<column name="#" visible="true" order="1" width="100"/>
+		<column name="Data Type" visible="true" order="2" width="100"/>
+		<column name="Not Null" visible="true" order="3" width="100"/>
+		<column name="Auto Increment" visible="true" order="4" width="100"/>
+		<column name="Key" visible="true" order="5" width="100"/>
+		<column name="디폴트" visible="true" order="6" width="100"/>
+		<column name="Extra" visible="true" order="7" width="100"/>
+		<column name="Expression" visible="true" order="8" width="100"/>
+		<column name="Comment" visible="true" order="9" width="100"/>
+	</item>
+	<item id="NodeList/MySQLTableConstraint">
+		<column name="이름" visible="true" order="0" width="100"/>
+		<column name="소유자" visible="true" order="1" width="100"/>
+		<column name="Type" visible="true" order="2" width="100"/>
+		<column name="Check expression" visible="true" order="3" width="100"/>
+	</item>
+	<item id="NodeList/MySQLTableConstraint/MySQLTableConstraintColumn">
+		<column name="이름" visible="true" order="0" width="118"/>
+		<column name="Column" visible="true" order="1" width="100"/>
+		<column name="소유자" visible="true" order="2" width="100"/>
+		<column name="Type" visible="true" order="3" width="100"/>
+		<column name="Check expression" visible="true" order="4" width="100"/>
+	</item>
+	<item id="NodeList/MySQLTableConstraintColumn">
+		<column name="이름" visible="true" order="0" width="100"/>
+		<column name="Column" visible="true" order="1" width="100"/>
+	</item>
+	<item id="NodeList/MySQLTableForeignKey">
+		<column name="이름" visible="true" order="0" width="100"/>
+		<column name="소유자" visible="true" order="1" width="100"/>
+		<column name="참조 테이블" visible="true" order="2" width="100"/>
+		<column name="Type" visible="true" order="3" width="100"/>
+		<column name="참조 개체" visible="true" order="4" width="100"/>
+		<column name="On Delete" visible="true" order="5" width="100"/>
+		<column name="On Update" visible="true" order="6" width="100"/>
+	</item>
+	<item id="NodeList/MySQLTableForeignKey/MySQLTableForeignKeyColumn">
+		<column name="이름" visible="true" order="0" width="128"/>
+		<column name="Column" visible="true" order="1" width="100"/>
+		<column name="소유자" visible="true" order="2" width="100"/>
+		<column name="참조 테이블" visible="true" order="3" width="100"/>
+		<column name="Type" visible="true" order="4" width="100"/>
+		<column name="참조 개체" visible="true" order="5" width="100"/>
+		<column name="On Delete" visible="true" order="6" width="100"/>
+		<column name="On Update" visible="true" order="7" width="100"/>
+	</item>
+	<item id="NodeList/MySQLTableIndex">
+		<column name="Column" visible="true" order="0" width="100"/>
+		<column name="인덱스명" visible="true" order="1" width="100"/>
+		<column name="테이블" visible="true" order="2" width="100"/>
+		<column name="인덱스 유형" visible="true" order="3" width="100"/>
+		<column name="Unique" visible="true" order="4" width="100"/>
+		<column name="Cardinality" visible="true" order="5" width="100"/>
+		<column name="Comment" visible="true" order="6" width="100"/>
+	</item>
+	<item id="NodeList/MySQLTableIndex/MySQLTableIndexColumn">
+		<column name="Column" visible="true" order="0" width="100"/>
+		<column name="인덱스명" visible="true" order="1" width="100"/>
+		<column name="테이블" visible="true" order="2" width="100"/>
+		<column name="인덱스 유형" visible="true" order="3" width="100"/>
+		<column name="Ascending" visible="true" order="4" width="100"/>
+		<column name="Nullable" visible="true" order="5" width="100"/>
+		<column name="Unique" visible="true" order="6" width="100"/>
+		<column name="Extra" visible="true" order="7" width="100"/>
+		<column name="Cardinality" visible="true" order="8" width="100"/>
+		<column name="Comment" visible="true" order="9" width="100"/>
+	</item>
+	<item id="NodeList/MySQLTableIndexColumn">
+		<column name="Column" visible="true" order="0" width="100"/>
+		<column name="이름" visible="true" order="1" width="100"/>
+		<column name="Ascending" visible="true" order="2" width="100"/>
+		<column name="Nullable" visible="true" order="3" width="100"/>
+		<column name="Extra" visible="true" order="4" width="100"/>
+	</item>
+	<item id="NodeList/MySQLTrigger">
+		<column name="트리거명" visible="true" order="0" width="100"/>
+		<column name="Timing" visible="true" order="1" width="100"/>
+		<column name="유형" visible="true" order="2" width="100"/>
+		<column name="Table" visible="true" order="3" width="100"/>
+		<column name="트리거 설명" visible="true" order="4" width="100"/>
+	</item>
+	<item id="NodeList/MySQLUser">
+		<column name="User name" visible="true" order="0" width="199"/>
+		<column name="Host mask" visible="true" order="1" width="100"/>
+		<column name="SSL type" visible="true" order="2" width="100"/>
+		<column name="SSL cipher" visible="true" order="3" width="100"/>
+		<column name="Max questions" visible="true" order="4" width="100"/>
+		<column name="Max updates" visible="true" order="5" width="100"/>
+		<column name="Max connections" visible="true" order="6" width="100"/>
+		<column name="Max user connections" visible="true" order="7" width="120"/>
+	</item>
+	<item id="NodeList/MySQLView">
+		<column name="View Name" visible="true" order="0" width="100"/>
+		<column name="Check Option" visible="true" order="1" width="100"/>
+		<column name="Updatable" visible="true" order="2" width="100"/>
+		<column name="Definer" visible="true" order="3" width="100"/>
+		<column name="Algorithm" visible="true" order="4" width="100"/>
+	</item>
+	<item id="SchemaSelector">
+		<column name="Schema Name" visible="true" order="0" width="100"/>
+		<column name="Default Charset" visible="true" order="1" width="100"/>
+		<column name="Default Collation" visible="true" order="2" width="131"/>
+		<column name="SQL Path" visible="true" order="3" width="100"/>
+		<column name="Database size" visible="true" order="4" width="100"/>
+	</item>
+</items>

@@ -1,0 +1,30 @@
+2025-09-01 11:09:48.190 - DBeaver 22.2.1.202209251341 is starting
+2025-09-01 11:09:48.190 - OS: Mac OS X 11.1 (x86_64)
+2025-09-01 11:09:48.190 - Java version: 11.0.12 by Eclipse Foundation (64bit)
+2025-09-01 11:09:48.190 - Install path: '/Applications/DBeaver.app/Contents/Eclipse'
+2025-09-01 11:09:48.190 - Instance path: 'file:/Users/jeongchunghyo/Desktop/gb_0900_jch/dbms/workspace/'
+2025-09-01 11:09:48.190 - Memory available 64Mb/1024Mb
+2025-09-01 11:09:48.200 - Create display
+2025-09-01 11:09:48.551 - Initializing DBeaver 22.2.1
+2025-09-01 11:09:48.551 - Host plugin: org.jkiss.dbeaver.ui.app.standalone 22.2.1.202209251341
+2025-09-01 11:09:48.551 - Initialize desktop platform...
+2025-09-01 11:09:48.862 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.9.400.v20220419-0658]
+> Start Core Resource Management [org.eclipse.core.resources 3.17.0.v20220517-0751]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.90.202209251341]
+> Start 팀 지원 핵심 [org.eclipse.team.core 3.9.400.v20220511-1440]
+2025-09-01 11:09:49.654 - Initialize base platform...
+> Start Expression Language [org.eclipse.core.expressions 3.8.100.v20210910-0640]
+2025-09-01 11:09:49.674 - Platform initialized (1123ms)
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.90.202209251341]
+2025-09-01 11:09:49.806 - Starting RMI server at 24521
+2025-09-01 11:09:49.995 - Run workbench
+> Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.16.500.v20220506-1520]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.3.200.v20220513-1235]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.5.0.v20210115-1333]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.16.0.v20190528-0725]
+> Start Eclipse e4 작업영역 기능 추가 [org.eclipse.e4.ui.workbench.addons.swt 1.4.400.v20211102-0453]
+> Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.15.500.v20220511-1638]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.13.100.v20210722-1426]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.17.100.v20210910-0640]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.14.500.v20220511-1639]

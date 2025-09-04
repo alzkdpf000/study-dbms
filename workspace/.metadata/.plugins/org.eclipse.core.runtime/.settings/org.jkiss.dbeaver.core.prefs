@@ -1,0 +1,16 @@
+MySQL.script..import=true
+MySQL.script.logLevel=Normal
+clientHomeName=/usr/local/Cellar/mysql/9.0.1
+dataSource=mysql8-197ce99b8df-7e8741d5ef1337e9
+dialog.default.folder=/Users/jeongchunghyo/Downloads/test_db-master
+driver.selector.orderBy=score
+eclipse.preferences.version=1
+inputFile=/Users/jeongchunghyo/Downloads/test_db-master/employees.sql
+org.jkiss.dbeaver.core.confirm.drop_sql=always
+org.jkiss.dbeaver.core.confirm.exit=always
+project=ddl
+project.active=jsp
+sample.database.canceled=true
+tipOfTheDayInitializer.notFirstRun=true
+ui.auto.update.check.time=1754445783989
+ui.show.tip.of.the.day.on.startup=true

@@ -1,0 +1,1 @@
+{"resources":{"Scripts/Script.sql":{"default-datasource":"mysql8-197e29b9710-199f136bb80ae700","default-catalog":"employees"},"Scripts/dml.sql":{"default-datasource":"mysql8-197e29b9710-199f136bb80ae700","default-catalog":"employees"},"Scripts/dml1.sql":{"default-datasource":"mysql8-197e29b9710-199f136bb80ae700","default-catalog":"dml"}}}

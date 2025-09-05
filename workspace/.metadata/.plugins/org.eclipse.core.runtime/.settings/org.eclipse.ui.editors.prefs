@@ -1,8 +1,0 @@
-AbstractTextEditor.Color.Background.SystemDefault=false
-AbstractTextEditor.Color.SelectionBackground.SystemDefault=false
-AbstractTextEditor.Color.SelectionForeground.SystemDefault=false
-SQLEditor.extraPanels.ratio=791-208
-SQLEditor.resultSet.ratio=576-423
-eclipse.preferences.version=1
-lineNumberRuler=true
-quickdiff.quickDiff=false

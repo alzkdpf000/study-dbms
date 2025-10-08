@@ -1,0 +1,16 @@
+server:
+  port: 10000
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/test?serverTimezone=Asia/Seoul
+    username: spring
+    password: 1234
+
+mybatis:
+  mapper-locations: classpath*:mapper/**/*.xml
+  type-aliases-package: com.example.postgresql.domain;
+  type-handlers-package: com.example.postgresql.mybatis.handler
+  configuration:
+    map-underscore-to-camel-case: true

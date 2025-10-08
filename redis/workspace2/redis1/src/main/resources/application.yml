@@ -1,0 +1,32 @@
+server:
+  port: 10001
+  servlet:
+    session:
+      tracking-modes: cookie
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/test?serverTimezone=Asia/Seoul
+    username: spring
+    password: 1234
+
+    session:
+      store-type: redis
+      redis:
+        repository-type: indexed
+        #      setAttribute, removeAttribute, invalidate
+        #      on_save: 세션의 속성이 변경되었을 때만 Redis에 요청 종료 시 한 번만 저장(성능 향상)
+        #      immediate: 어떤 세션 변경이든 발생하면 즉시 Redis에 반영(성능 부담)
+        flush-mode: on_save
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+
+mybatis:
+  mapper-locations: classpath*:mapper/**/*.xml
+  type-aliases-package: com.example.redis1.domain.vo;com.example.redis1.domain.dto
+  type-handlers-package: com.example.postgresql.mybatis.handler
+  configuration:
+    map-underscore-to-camel-case: true

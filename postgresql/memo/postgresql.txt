@@ -1,0 +1,24 @@
+PostgreSQL
+	웹 서비스, 빅데이터 등 다양한 분야에서 널리 사용되는 오픈소프 DBMS이다.
+	Oracle과 유사한 기능들을 많이 포함하고 있으며, ANSI SQL 표준을 거의 완벽하게 지원한다.
+	복잡한 쿼리 처리와 확장 기능에 강하며, 데이터 무결성 및 트랜잭션 관리에 매우 강력하다.
+
+PostgreSQL 설치
+	https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+
+PostgreSQL 기초 문법
+	- 사용자 생성
+		- psql -U [사용자명] -d [데이터베이스명] 
+		- psql -U postgres -d postgres (기본으로 있는 부분)
+		- create user [사용자명] with password '[비밀번호]';
+		- create database [데이터메이스명];
+		- alter user [사용자명] with superuser; (superuser는 role)
+	- 데이터베이스 목록: \l
+	- 데이터베이스 접속: \c [데이터베이스명]
+	- 사용가능한 계정 목록 조회: \du
+	- 데이터베이스 삭제
+		psql -U postgres -d postgres
+		drop database [데이터베이스명];
+	- 사용자 삭제
+		alter user [사용자명] with nosuperuser; 
+		drop role [사용자명];

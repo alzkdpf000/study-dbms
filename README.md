@@ -447,7 +447,9 @@ VIEW 문법
 	Oracle과 유사한 기능들을 많이 포함하고 있으며, ANSI SQL 표준을 거의 완벽하게 지원한다.
 	복잡한 쿼리 처리와 확장 기능에 강하며, 데이터 무결성 및 트랜잭션 관리에 매우 강력하다.
 
-PostgreSQL 설치
+
+
+# PostgreSQL 설치
 	https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 
 PostgreSQL 기초 문법
@@ -543,7 +545,7 @@ PostgreSQL 자료형
 	- SELECT에 조건절(WHERE), 정렬(ORDER BY), 조인(ON)에 자주 사용되는 컬럼 중심으로 설정한다.
 
 
-Redis(Remote Dictionary Server)
+# Redis(Remote Dictionary Server)
 	빠른 속도의 메모리 기반 키-값 저장소(In-memory(캐싱) 데이터 베이스)로
 	주로 캐시, 세션 저장, 토큰 관리 등에 활용된다.
 
